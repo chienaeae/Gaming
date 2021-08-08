@@ -45,8 +45,8 @@ public class MainScene extends Scene {
 
     public MainScene(SceneController sceneController, Actor.ActorChoice actorChoice) {
         super(sceneController);
-        this.hurdle = new HurdleController(Level.LEVEL_THREE, new Actor(actorChoice));
-        this.level = Level.LEVEL_THREE;
+        this.hurdle = new HurdleController(Level.LEVEL_ONE, new Actor(actorChoice));
+        this.level = Level.LEVEL_ONE;
         this.changing = false;
         this.isEndingAnimation = false;
         this.introduce = new Introduce();
